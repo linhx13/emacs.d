@@ -32,7 +32,7 @@
            ;; press M-number to choose candidate
            company-show-numbers t
            company-idle-delay 0.2
-           company-minimum-prefix-length 0
+           company-minimum-prefix-length 1
            company-clang-insert-arguments nil
            company-require-match nil
            company-etags-ignore-case t)

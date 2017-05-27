@@ -745,8 +745,9 @@ If step is -1, go backward."
 
 ;; {{ auto-save.el
 (require 'auto-save)
-(auto-save-enable)
 (setq auto-save-slient t)
+(setq auto-save-idle 30)
+(auto-save-enable)
 ;; }}
 
 ;; {{ csv
