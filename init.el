@@ -162,4 +162,11 @@
 ;;; End:
 (put 'erase-buffer 'disabled nil)
 
+(setq scroll-margin 3)
+(setq scroll-step 1)
+(setq scroll-conservatively 1)
+
 (neotree-toggle)
+
+(set-default-font "Monaco 13")
+

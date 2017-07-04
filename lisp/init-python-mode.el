@@ -13,7 +13,7 @@
 
 (add-hook 'python-mode-hook 'python-mode-hook-setup)
 
-(require 'py-autopep8)
-(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
+;(require 'py-autopep8)
+;(add-hook 'elpy-mode-hook 'py-autopep8-enable-on-save)
 
 (provide 'init-python-mode)
