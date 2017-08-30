@@ -118,6 +118,7 @@
   ;; need statistics of keyfreq asap
   (require 'init-keyfreq)
   (require 'init-httpd)
+  (require 'init-protobuf-mode)
 
   ;; projectile costs 7% startup time
 
@@ -166,7 +167,7 @@
 (setq scroll-step 1)
 (setq scroll-conservatively 1)
 
-(neotree-toggle)
+; (neotree-toggle)
 
 (set-default-font "Monaco 13")
 
