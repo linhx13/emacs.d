@@ -165,7 +165,7 @@
 
 (setq scroll-margin 3)
 (setq scroll-step 1)
-(setq scroll-conservatively 1)
+(setq scroll-conservatively 10000)
 
 ; (neotree-toggle)
 
