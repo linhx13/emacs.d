@@ -7,8 +7,9 @@
 if __name__ == '__main__':
     import gc
     gc.disable()
-    logging.basicConfig(level=logging.INFO,
-                        format='%(asctime)s %(levelname)s %(message)s')
+    logging.basicConfig(
+        level=logging.INFO,
+        format='%(levelname)s %(asctime)s %(filename)s:%(lineno)d %(message)s')
 
     import argparse
     parser = argparse.ArgumentParser()
