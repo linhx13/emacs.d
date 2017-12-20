@@ -38,7 +38,7 @@ But you may use safer HTTPS instead.")
     htmlize
     scratch
     session
-    crontab-mode
+    ;crontab-mode
     bookmark+
     flymake-lua
     multi-term
@@ -62,10 +62,10 @@ But you may use safer HTTPS instead.")
 ;; Lock org-mode temporarily:
 (setq package-archives
       '(;; uncomment below line if you need use GNU ELPA
-        ;; ("gnu" . "https://elpa.gnu.org/packages/")
-        ;; ("org" . "http://orgmode.org/elpa/") ; latest org-mode
+        ("gnu" . "https://elpa.gnu.org/packages/")
+        ("org" . "http://orgmode.org/elpa/") ; latest org-mode
         ("localelpa" . "~/.emacs.d/localelpa/")
-        ("my-js2-mode" . "https://raw.githubusercontent.com/redguardtoo/js2-mode/release/")
+        ;("my-js2-mode" . "https://raw.githubusercontent.com/redguardtoo/js2-mode/release/")
         ("melpa" . "https://melpa.org/packages/")
         ("melpa-stable" . "https://stable.melpa.org/packages/")))
 
@@ -188,7 +188,7 @@ But you may use safer HTTPS instead.")
 (require-package 'scratch)
 (require-package 'rainbow-delimiters)
 (require-package 'textile-mode)
-(require-package 'crontab-mode)
+;(require-package 'crontab-mode)
 (require-package 'dsvn)
 (require-package 'git-timemachine)
 (require-package 'exec-path-from-shell)
@@ -256,5 +256,6 @@ But you may use safer HTTPS instead.")
 (require-package 'quack) ; for scheme
 (require-package 'hydra)
 (require-package 'chinese-pyim)
+(require-package 'nlinum)
 
 (provide 'init-elpa)

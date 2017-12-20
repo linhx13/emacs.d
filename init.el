@@ -95,7 +95,7 @@
   ;; Use bookmark instead
   (require 'init-cc-mode)
   (require 'init-gud)
-  (require 'init-linum-mode)
+  ;; (require 'init-linum-mode)
   ;; (require 'init-gist)
   (require 'init-moz)
   (require 'init-gtags)
@@ -171,3 +171,5 @@
 
 (set-default-font "Monaco 13")
 
+(global-nlinum-mode t)
+(setq nlinum-highlight-current-line t)
