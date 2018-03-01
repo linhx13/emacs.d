@@ -17,17 +17,18 @@
 Fallback theme is used only if the console does NOT support 256 colors."
   (interactive)
   (cond
-   ((string= my-current-color-theme "molokai")
+   ((string= my-current-color-theme "solarized")
     ;; fallback color theme from color-theme library
     (unless color-theme-initialized (color-theme-initialize))
     (color-theme-deep-blue)
     (setq my-current-color-theme "fallback"))
    (t
     ;; major color theme we use
-    (unless (featurep 'color-theme-molokai)
-      (require 'color-theme-molokai))
-    (color-theme-molokai)
-    (setq my-current-color-theme "molokai"))))
+    (unless (featurep 'color-theme-solarized)
+      (require 'color-theme-solarized))
+    (color-theme-solarized)
+    (setq my-current-color-theme "solarized"))))
+; molokai
 ;; turn on the color theme now!
 (my-toggle-color-theme)
 
