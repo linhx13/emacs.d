@@ -257,5 +257,6 @@ But you may use safer HTTPS instead.")
 (require-package 'hydra)
 (require-package 'chinese-pyim)
 (require-package 'nlinum)
+(require-package 'cython-mode)
 
 (provide 'init-elpa)
