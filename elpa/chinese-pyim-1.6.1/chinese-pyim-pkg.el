@@ -1,0 +1,1 @@
+(define-package "chinese-pyim" "1.6.1" "Please install 'pyim' package instead." '((pyim "1.5.2")) :commit "f4dacfbac11d6d58f1fcbf766691e03b6983a9f6" :url "https://github.com/tumashu/chinese-pyim" :keywords '("convenience" "chinese" "pinyin" "input-method"))
