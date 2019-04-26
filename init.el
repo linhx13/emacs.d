@@ -187,5 +187,5 @@
 (setq ns-pop-up-frames nil)
 
 (setq mouse-wheel-scroll-amount
-      '(1 ((shift) . 1) ((control) . nil)))
+      '(2 ((shift) . 3) ((control) . 3)))
 (setq mouse-wheel-progressive-speed nil)
