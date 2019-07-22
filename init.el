@@ -72,7 +72,7 @@
   (require 'init-spelling)
   (require 'init-gui-frames)
   (require 'init-ido)
-  (require 'init-dired)
+;   (require 'init-dired)
   (require 'init-uniquify)
   (require 'init-ibuffer)
   (require 'init-ivy)
@@ -169,7 +169,7 @@
 
 ; (neotree-toggle)
 
-(set-default-font "Monaco 13")
+(set-default-font "Monaco 15")
 
 (global-nlinum-mode t)
 (setq nlinum-highlight-current-line t)
@@ -189,3 +189,5 @@
 (setq mouse-wheel-scroll-amount
       '(1 ((shift) . 1) ((control) . nil)))
 (setq mouse-wheel-progressive-speed nil)
+
+(setq make-backup-files nil)
