@@ -119,6 +119,7 @@
   (require 'init-keyfreq)
   (require 'init-httpd)
   (require 'init-protobuf-mode)
+  (require 'init-go-mode)
 
   ;; projectile costs 7% startup time
 
@@ -169,7 +170,7 @@
 
 ; (neotree-toggle)
 
-(set-default-font "Monaco 13")
+(set-default-font "Monaco 17")
 
 (global-nlinum-mode t)
 (setq nlinum-highlight-current-line t)
