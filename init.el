@@ -72,7 +72,7 @@
   (require 'init-spelling)
   (require 'init-gui-frames)
   (require 'init-ido)
-  (require 'init-dired)
+;   (require 'init-dired)
   (require 'init-uniquify)
   (require 'init-ibuffer)
   (require 'init-ivy)
@@ -190,3 +190,8 @@
 (setq mouse-wheel-scroll-amount
       '(2 ((shift) . 3) ((control) . 3)))
 (setq mouse-wheel-progressive-speed nil)
+<<<<<<< HEAD
+=======
+
+(setq make-backup-files nil)
+>>>>>>> 87dce74659a9acd841751eb98d06c8c01a5ad6e7
