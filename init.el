@@ -169,7 +169,7 @@
 
 ; (neotree-toggle)
 
-(set-default-font "Monaco 15")
+(set-default-font "Monaco 17")
 
 (global-nlinum-mode t)
 (setq nlinum-highlight-current-line t)
