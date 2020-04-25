@@ -119,6 +119,7 @@
   (require 'init-keyfreq)
   (require 'init-httpd)
   (require 'init-protobuf-mode)
+  (require 'init-go-mode)
 
   ;; projectile costs 7% startup time
 
@@ -189,5 +190,4 @@
 (setq mouse-wheel-scroll-amount
       '(2 ((shift) . 3) ((control) . 3)))
 (setq mouse-wheel-progressive-speed nil)
-
 (setq make-backup-files nil)
